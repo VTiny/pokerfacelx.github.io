@@ -6,16 +6,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>c#大作业连接数据库的辛路历程 | pokerface_lx</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="c#连接数据库遇到的问题">
+  <meta name="description" content="用到的网站
+Visual Studio官网
+C# 官方API文档
+MySQL官网
+Navicat官网
+哪儿不懂就问度娘
+当然谷歌更好
+CSDN -“最大中文IT社区”
+
+准备工作
+下载安装Visual Studio
+vs2015官方下载地址
+vs2015百度网盘 密码：500f 
+社区版免费，均默认安装即可
+
+
+下载安装数据库
+我使用的是MySQLMySQL官方下载地址 百度网盘 密码：0x24，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="c#大作业连接数据库的辛路历程">
 <meta property="og:url" content="http://yoursite.com/2015/12/27/C#连接数据库/index.html">
 <meta property="og:site_name" content="pokerface_lx">
-<meta property="og:description" content="c#连接数据库遇到的问题">
-<meta property="og:updated_time" content="2016-02-21T04:04:24.709Z">
+<meta property="og:description" content="用到的网站
+Visual Studio官网
+C# 官方API文档
+MySQL官网
+Navicat官网
+哪儿不懂就问度娘
+当然谷歌更好
+CSDN -“最大中文IT社区”
+
+准备工作
+下载安装Visual Studio
+vs2015官方下载地址
+vs2015百度网盘 密码：500f 
+社区版免费，均默认安装即可
+
+
+下载安装数据库
+我使用的是MySQLMySQL官方下载地址 百度网盘 密码：0x24，">
+<meta property="og:updated_time" content="2016-02-26T03:49:20.134Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="c#大作业连接数据库的辛路历程">
-<meta name="twitter:description" content="c#连接数据库遇到的问题">
+<meta name="twitter:description" content="用到的网站
+Visual Studio官网
+C# 官方API文档
+MySQL官网
+Navicat官网
+哪儿不懂就问度娘
+当然谷歌更好
+CSDN -“最大中文IT社区”
+
+准备工作
+下载安装Visual Studio
+vs2015官方下载地址
+vs2015百度网盘 密码：500f 
+社区版免费，均默认安装即可
+
+
+下载安装数据库
+我使用的是MySQLMySQL官方下载地址 百度网盘 密码：0x24，">
   
     <link rel="alternative" href="/atom.xml" title="pokerface_lx" type="application/atom+xml">
   
@@ -113,7 +164,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Android基础知识/" style="font-size: 20px;">Android基础知识</a> <a href="/tags/c/" style="font-size: 10px;">c#</a>
+						<a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Android基础知识/" style="font-size: 20px;">Android基础知识</a> <a href="/tags/c/" style="font-size: 10px;">c#</a>
 					</div>
 				</section>
 				
@@ -197,7 +248,7 @@
   
     <div class="article-meta">
       <a href="/2015/12/27/C#连接数据库/" class="article-date">
-  	<time datetime="2015-12-26T17:48:50.000Z" itemprop="datePublished">2015-12-27</time>
+  	<time datetime="2015-12-26T17:48:00.000Z" itemprop="datePublished">2015-12-27</time>
 </a>
     </div>
   
@@ -242,28 +293,28 @@
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
 <li>下载安装Visual Studio<ul>
 <li><a href="https://www.visualstudio.com/post-download-vs?sku=community&amp;clcid=0x804" target="_blank" rel="external">vs2015官方下载地址</a></li>
-<li><a href="http://pan.baidu.com/s/1nukfC0L" target="_blank" rel="external">vs2015百度网盘链接</a> 密码：500f</li>
+<li><a href="http://pan.baidu.com/s/1nukfC0L" target="_blank" rel="external">vs2015百度网盘 密码：500f</a> </li>
 <li>社区版免费，均默认安装即可</li>
 </ul>
 </li>
 <li>下载安装数据库<ul>
-<li>我使用的是MySQL<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="external">MySQL官方下载地址</a> <a href="http://pan.baidu.com/s/1pKlx2Nx" target="_blank" rel="external">百度网盘链接</a>密码：0x24， 不想用SQL Server，后者不但冗杂占得地方大，卸载还特别复杂</li>
+<li>我使用的是MySQL<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="external">MySQL官方下载地址</a> <a href="http://pan.baidu.com/s/1pKlx2Nx" target="_blank" rel="external">百度网盘 密码：0x24</a>， 不想用SQL Server，后者不但冗杂占得地方大，卸载还特别复杂</li>
 <li>社区版依旧免费，默认安装即可</li>
-<li>正常人都不会喜欢命令行操作，使用Navicat对MySQL进行图形化的操作<a href="http://www.navicat.com.cn/download" target="_blank" rel="external">Navicat官方下载地址</a> <a href="http://pan.baidu.com/s/1eQQbhOQ" target="_blank" rel="external">百度网盘链接</a> 密码：jwhh</li>
+<li>正常人都不会喜欢命令行操作，使用Navicat对MySQL进行图形化的操作<a href="http://www.navicat.com.cn/download" target="_blank" rel="external">Navicat官方下载地址</a> <a href="http://pan.baidu.com/s/1eQQbhOQ" target="_blank" rel="external">百度网盘 密码：jwhh</a></li>
 <li>连接Navicat和MySQL，除了密码一切皆默认</li>
 </ul>
 </li>
 </ol>
 <h2 id="代码中连接数据库"><a href="#代码中连接数据库" class="headerlink" title="代码中连接数据库"></a>代码中连接数据库</h2><ol>
 <li>下载MySql.Data.dll库， 并添加到程序的引用中<ul>
-<li>被csdn坑了一个金币才下到-、-<a href="http://pan.baidu.com/s/1IbMCu" target="_blank" rel="external">百度网盘链接</a> 密码：4s91</li>
+<li>被csdn坑了一个金币才下到-、-<a href="http://pan.baidu.com/s/1IbMCu" target="_blank" rel="external">百度网盘 密码：4s91</a></li>
 <li>引用 -&gt;(右键)添加引用 -&gt; 浏览</li>
 </ul>
 </li>
 <li>在程序中创建MySqlHelper.cs类<ul>
 <li>网上有很多，可以自己下载</li>
 <li>源码附在最后，粘贴时注意添加引用</li>
-<li>我使用的<a href="http://pan.baidu.com/s/1qXfVN3I" target="_blank" rel="external">百度网盘连接</a> 密码：iazn，也可以在这儿下</li>
+<li>我使用的<a href="http://pan.baidu.com/s/1qXfVN3I" target="_blank" rel="external">百度网盘 密码：iazn</a>，也可以在这儿下</li>
 <li>注意修改命名空间</li>
 </ul>
 </li>
